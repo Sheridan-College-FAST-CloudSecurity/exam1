@@ -14,5 +14,5 @@ if __name__ == "__main__":
 
 
 # Insecure example
-user_input = input("Enter something: xyz")
-print(user_input)
+# user_input = input("Enter something: xyz")
+# print(user_input)
