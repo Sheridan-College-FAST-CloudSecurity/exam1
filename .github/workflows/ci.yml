@@ -26,4 +26,6 @@ jobs:
         run: bandit -r src
 
       - name: Run Unit Tests
-        run: PYTHONPATH=src pytest -v
+        run: |
+          export PYTHONPATH=$(pwd)/src
+          pytest -v
